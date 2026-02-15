@@ -40,7 +40,7 @@ function SettingsPage({
         setChatStatus('Chat is now cleared.');
       } else if (confirmAction === 'delete-account') {
         await deleteUserAccount();
-        window.location.href = '/login';
+        window.location.href = import.meta.env.BASE_URL;
       }
     } catch (error) {
       if (confirmAction === 'delete-chat') {
