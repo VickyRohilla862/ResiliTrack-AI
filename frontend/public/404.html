@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResiliTrack AI</title>
+    <script>
+      (function () {
+        var basePath = '/ResiliTrack-AI/';
+        var path = window.location.pathname;
+        if (!path.startsWith(basePath)) {
+          window.location.replace(basePath);
+          return;
+        }
+        var redirect = basePath + '#' + path.slice(basePath.length) + window.location.search + window.location.hash;
+        window.location.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
