@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_PAGES ? '/RESILITRACK-AI/' : '/',
+  base: process.env.GITHUB_PAGES ? '/ResiliTrack-AI/' : '/',
   server: {
     port: 3000,
     allowedHosts: ['unrescuable-delois-overstrong.ngrok-free.dev'],
