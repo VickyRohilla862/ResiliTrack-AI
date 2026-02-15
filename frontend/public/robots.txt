@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vickyrohilla862.github.io/ResiliTrack-AI/sitemap.xml
