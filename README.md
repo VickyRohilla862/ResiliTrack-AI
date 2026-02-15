@@ -43,6 +43,14 @@ ResiliTrack AI is a full-stack web app that analyzes pandemic resilience for 10 
 5. Backend applies impacts, computes totals, and returns results.
 6. Frontend renders the analysis, bar chart, and heatmap.
 
+## Get Your Gemini API Key
+
+1. Visit https://aistudio.google.com/app/apikey.
+2. Sign in with your Google account.
+3. Click "Create API Key" and select a project.
+4. Copy the key (it starts with "AIza").
+5. Paste it in the app when prompted (Settings > Gemini API Key).
+
 ## Tech Stack
 
 Frontend:
