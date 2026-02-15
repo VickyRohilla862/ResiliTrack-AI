@@ -1,0 +1,317 @@
+:root {
+  /* Light Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6c757d;
+  --border-color: #dee2e6;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #f3f5f7;
+  --panel-border: #e5e7eb;
+  --surface-glow: rgba(0, 123, 255, 0.08);
+  --panel-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+  --panel-shadow-soft: 0 6px 16px rgba(15, 23, 42, 0.06);
+  --accent-color: #007bff;
+  --accent-hover: #0056b3;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --placeholder-color: rgba(49, 49, 43, 0.364);
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Border Radius */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms ease-in-out;
+}
+
+body.dark-theme {
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3a3a3a;
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0a0;
+  --border-color: #404040;
+  --panel-bg: #232323;
+  --panel-header-bg: #2c2c2c;
+  --panel-border: #3a3a3a;
+  --surface-glow: rgba(13, 126, 244, 0.18);
+  --panel-shadow: 0 16px 28px rgba(0, 0, 0, 0.35);
+  --panel-shadow-soft: 0 8px 18px rgba(0, 0, 0, 0.3);
+  --accent-color: #0d7ef4;
+  --accent-hover: #1e8fff;
+  --placeholder-color: rgba(224, 224, 224, 0.5);
+}
+
+body.theme-ocean {
+  --bg-primary: #f5f9ff;
+  --bg-secondary: #e8f1ff;
+  --bg-tertiary: #d7e7ff;
+  --text-primary: #12304a;
+  --text-secondary: #4b6b8a;
+  --border-color: #c7d9f2;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #eef5ff;
+  --panel-border: #cbdaf1;
+  --surface-glow: rgba(37, 99, 235, 0.12);
+  --panel-shadow: 0 14px 26px rgba(30, 64, 175, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(30, 64, 175, 0.08);
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+  --placeholder-color: rgba(18, 48, 74, 0.35);
+}
+
+body.theme-forest {
+  --bg-primary: #f4f7f2;
+  --bg-secondary: #e6efe2;
+  --bg-tertiary: #d4e4cc;
+  --text-primary: #1f2b1f;
+  --text-secondary: #4a5b4a;
+  --border-color: #c9d8c1;
+  --panel-bg: #fdfefc;
+  --panel-header-bg: #edf5e9;
+  --panel-border: #cfdcc8;
+  --surface-glow: rgba(34, 197, 94, 0.12);
+  --panel-shadow: 0 14px 26px rgba(22, 101, 52, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(22, 101, 52, 0.08);
+  --accent-color: #15803d;
+  --accent-hover: #166534;
+  --placeholder-color: rgba(31, 43, 31, 0.35);
+}
+
+body.theme-slate {
+  --bg-primary: #f1f4f8;
+  --bg-secondary: #e3e9f2;
+  --bg-tertiary: #d1dbe8;
+  --text-primary: #1f2a37;
+  --text-secondary: #475569;
+  --border-color: #c5d0df;
+  --panel-bg: #f8fafc;
+  --panel-header-bg: #e8edf4;
+  --panel-border: #cfd8e4;
+  --surface-glow: rgba(59, 130, 246, 0.12);
+  --panel-shadow: 0 14px 26px rgba(30, 41, 59, 0.14);
+  --panel-shadow-soft: 0 8px 18px rgba(30, 41, 59, 0.1);
+  --accent-color: #1d4ed8;
+  --accent-hover: #1e40af;
+  --placeholder-color: rgba(31, 42, 55, 0.35);
+}
+
+body.theme-mint {
+  --bg-primary: #f2fbf7;
+  --bg-secondary: #e3f5ec;
+  --bg-tertiary: #cfe9de;
+  --text-primary: #1f3a31;
+  --text-secondary: #4e6f64;
+  --border-color: #c7dbd2;
+  --panel-bg: #fafffd;
+  --panel-header-bg: #e9f6ef;
+  --panel-border: #cfe1d7;
+  --surface-glow: rgba(16, 185, 129, 0.12);
+  --panel-shadow: 0 14px 26px rgba(6, 95, 70, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(6, 95, 70, 0.08);
+  --accent-color: #0f766e;
+  --accent-hover: #115e59;
+  --placeholder-color: rgba(31, 58, 49, 0.35);
+}
+
+body.theme-steel {
+  --bg-primary: #f3f6fa;
+  --bg-secondary: #e6ecf4;
+  --bg-tertiary: #d3deeb;
+  --text-primary: #1f2937;
+  --text-secondary: #526175;
+  --border-color: #c4d1e2;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #eef2f7;
+  --panel-border: #d2dbe7;
+  --surface-glow: rgba(37, 99, 235, 0.1);
+  --panel-shadow: 0 14px 26px rgba(15, 23, 42, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(15, 23, 42, 0.08);
+  --accent-color: #334155;
+  --accent-hover: #1f2937;
+  --placeholder-color: rgba(31, 41, 55, 0.35);
+}
+
+body.theme-rose {
+  --bg-primary: #fff5f7;
+  --bg-secondary: #ffe8ee;
+  --bg-tertiary: #ffd4df;
+  --text-primary: #3b1f2a;
+  --text-secondary: #6b3b4a;
+  --border-color: #f2c1cd;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #ffeef3;
+  --panel-border: #f4c9d4;
+  --surface-glow: rgba(244, 63, 94, 0.12);
+  --panel-shadow: 0 14px 26px rgba(190, 18, 60, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(190, 18, 60, 0.08);
+  --accent-color: #e11d48;
+  --accent-hover: #be123c;
+  --placeholder-color: rgba(59, 31, 42, 0.35);
+}
+
+body.theme-indigo {
+  --bg-primary: #f5f6ff;
+  --bg-secondary: #e8eaff;
+  --bg-tertiary: #d6dcff;
+  --text-primary: #1f254a;
+  --text-secondary: #4a4f7b;
+  --border-color: #c6ccec;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #eef0ff;
+  --panel-border: #cfd4f2;
+  --surface-glow: rgba(79, 70, 229, 0.12);
+  --panel-shadow: 0 14px 26px rgba(67, 56, 202, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(67, 56, 202, 0.08);
+  --accent-color: #4f46e5;
+  --accent-hover: #4338ca;
+  --placeholder-color: rgba(31, 37, 74, 0.35);
+}
+
+
+body.theme-coffee {
+  --bg-primary: #fbf7f2;
+  --bg-secondary: #f1e7db;
+  --bg-tertiary: #e3d3c2;
+  --text-primary: #3a2a21;
+  --text-secondary: #6b5347;
+  --border-color: #dbc9b6;
+  --panel-bg: #fffdfa;
+  --panel-header-bg: #f6eee4;
+  --panel-border: #e2d3c4;
+  --surface-glow: rgba(124, 78, 52, 0.12);
+  --panel-shadow: 0 14px 26px rgba(91, 52, 32, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(91, 52, 32, 0.08);
+  --accent-color: #8b5e3c;
+  --accent-hover: #6b442a;
+  --placeholder-color: rgba(58, 42, 33, 0.35);
+}
+
+body.theme-plum {
+  --bg-primary: #fbf6ff;
+  --bg-secondary: #f1e6ff;
+  --bg-tertiary: #e3d1ff;
+  --text-primary: #2f1b3a;
+  --text-secondary: #5b3d6b;
+  --border-color: #d4c1e4;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #f4ecff;
+  --panel-border: #dcc9ef;
+  --surface-glow: rgba(168, 85, 247, 0.12);
+  --panel-shadow: 0 14px 26px rgba(126, 34, 206, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(126, 34, 206, 0.08);
+  --accent-color: #8b5cf6;
+  --accent-hover: #7c3aed;
+  --placeholder-color: rgba(47, 27, 58, 0.35);
+}
+
+
+body.theme-charcoal {
+  --bg-primary: #1c1f24;
+  --bg-secondary: #242a31;
+  --bg-tertiary: #2f3741;
+  --text-primary: #e6e7ea;
+  --text-secondary: #a7b0ba;
+  --border-color: #3a434f;
+  --panel-bg: #20262d;
+  --panel-header-bg: #2a323b;
+  --panel-border: #3a434f;
+  --surface-glow: rgba(71, 85, 105, 0.2);
+  --panel-shadow: 0 16px 28px rgba(0, 0, 0, 0.4);
+  --panel-shadow-soft: 0 8px 18px rgba(0, 0, 0, 0.3);
+  --accent-color: #94a3b8;
+  --accent-hover: #cbd5e1;
+  --placeholder-color: rgba(230, 231, 234, 0.4);
+}
+
+body.theme-ice {
+  --bg-primary: #f7fbff;
+  --bg-secondary: #eef5ff;
+  --bg-tertiary: #dde8f7;
+  --text-primary: #172554;
+  --text-secondary: #4b5b7a;
+  --border-color: #cdd9ea;
+  --panel-bg: #ffffff;
+  --panel-header-bg: #edf3ff;
+  --panel-border: #d6e1f2;
+  --surface-glow: rgba(59, 130, 246, 0.1);
+  --panel-shadow: 0 14px 26px rgba(30, 58, 138, 0.12);
+  --panel-shadow-soft: 0 8px 18px rgba(30, 58, 138, 0.08);
+  --accent-color: #3b82f6;
+  --accent-hover: #2563eb;
+  --placeholder-color: rgba(23, 37, 84, 0.35);
+}
+
+* {
+  font-family: inherit;
+}
+
+body.font-arial {
+  font-family: Arial, sans-serif;
+}
+
+body.font-plex {
+  font-family: 'IBM Plex Sans', 'Space Grotesk', sans-serif;
+}
+
+body.font-times {
+  font-family: 'Times New Roman', serif;
+}
+
+body.font-courier {
+  font-family: 'Courier New', monospace;
+}
+
+body.font-georgia {
+  font-family: Georgia, serif;
+}
+
+body.font-small {
+  --font-base: 14px;
+  --font-sm: 13px;
+  --font-lg: 15px;
+  --font-xl: 17px;
+  --font-2xl: 22px;
+}
+
+body.font-medium {
+  --font-base: 16px;
+  --font-sm: 14px;
+  --font-lg: 17px;
+  --font-xl: 19px;
+  --font-2xl: 24px;
+}
+
+body.font-large {
+  --font-base: 18px;
+  --font-sm: 16px;
+  --font-lg: 19px;
+  --font-xl: 21px;
+  --font-2xl: 26px;
+}
+
+:root {
+  --font-base: 16px;
+  --font-sm: 14px;
+  --font-lg: 17px;
+  --font-xl: 19px;
+  --font-2xl: 24px;
+}

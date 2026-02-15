@@ -1,0 +1,49 @@
+# Environment files
+
+# Frontend
+node_modules/
+frontend/node_modules/
+dist/
+build/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Backend
+.venv/
+venv/
+backend/venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+backend/instance/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pip-debug.log*
+
+# Package managers
+.npm
+.yarn
+
+# OS
+Thumbs.db
+.cache/
